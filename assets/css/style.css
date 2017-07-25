@@ -200,3 +200,92 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+  body {
+    background-color: #333;
+  }
+  .container {
+  max-width: 900px;
+  }
+  
+  .contatiner nav {
+  text-align: center;
+  }
+  nav {
+  margin-right: 25px;
+  }
+.main-section {
+  max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #333;
+  }
+  .container {
+  max-width: 768px;
+  }
+  
+  .contatiner nav {
+  text-align: center;
+  }
+  nav {
+  margin-right: 25px;
+  }
+  .sidebar {
+    float: left;
+    max-width: 688px;
+  }
+  #main-container {
+    max-width: 688px;
+  }
+  .main-section {
+    max-width: 688px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    background-color: #333;
+  }
+  .container {
+  max-width: 640px;
+  }
+  
+  .contatiner nav {
+  text-align: center;
+  }
+  
+  #logo {
+    width: 100%;
+  }
+  nav {
+    margin-top: 0;
+    text-align: center;
+    float: none;
+  }
+  nav a {
+  width: 150px;
+  padding-left: 25px;
+  padding-right: 25px;
+  }
+  .sidebar {
+    float: left;
+    max-width: 560px;
+  }
+  #main-container {
+    max-width: 560px;
+  }
+  .main-section {
+  }
+  .auth-image {
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  .work {
+    width: 100%; 
+  }
+}
